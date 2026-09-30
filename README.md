@@ -1,4 +1,4 @@
-#  ChitChat: Real-Time Messaging App
+#  ChitChat: Real-Time Messaging  
 
 Full-stack real-time chat app with direct messages and public/private group chats.
 

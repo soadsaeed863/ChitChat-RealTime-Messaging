@@ -34,8 +34,8 @@ cd frontend && npm install && npm run dev
 ```
 
 ##  Team
-Rana Mohamed 
-Soad Saeed 
-Rawan Mohamed 
-Roaa Mohamed 
-Mariam Said
+- Rana Mohamed
+- Soad Saeed
+- Rawan Mohamed
+- Roaa Mohamed
+- Mariam Said

@@ -1,0 +1,32 @@
+
+.con {
+    width: auto; 
+    height: calc(100vh - 56px); 
+    background-color: #DFDCF2; 
+    /* position: fixed;  */
+    transition: all 0.3s ease; 
+  }
+  
+  .side {
+    padding: 20px 0; 
+  }
+  
+  .nav-item {
+    margin-bottom: 15px; 
+  }
+  
+  
+  .icon {
+    color: #9049BF; 
+    font-size: 4.5vh; /* You can adjust this or use rem/em for responsiveness */
+    transition: color 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 4.5vh;
+}
+
+.icon:hover {
+    color: #88B6F2; 
+}
+
+ 
+  

@@ -1,0 +1,47 @@
+.con {
+  background-color: #DFDCF2;
+  padding: 5.5px 13px;
+  border-bottom: 1px solid #9049BF;
+}
+
+.transparent {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  color: #9049BF;
+  text-decoration: none;
+  /* font-size: 1.25rem; */
+}
+
+.brand:hover {
+  color: #9049BF; /* Ensures the text color remains the same on hover */
+}
+
+.arrow{
+  color: #9049BF;
+  transition: color 0.3s ease-in-out;  
+}
+
+.arrow:hover{
+  cursor: pointer;
+  color: #88B6F2;
+}
+
+
+
+.circularImage {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.circularImage img {
+  width: 100%;
+  height: auto;
+}

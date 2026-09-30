@@ -1,0 +1,100 @@
+/* App.css */
+.app {
+    text-align: center;
+    background-color: #e0eafc;
+    padding: 50px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #7f00ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form input {
+    background-color: rgb(58, 149, 202);
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+  }
+  .online {
+    color: green;
+  }
+  
+  .offline {
+    color: red;
+  }
+  .back {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #DFDCF2;
+   
+  }
+  
+  .con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #DFDCF2;
+    border-left: 1px solid #9049BF;
+    border-right: 1px solid #9049BF;
+    border-top: 1px solid #9049BF;
+    border-top-left-radius: 25px;
+  }
+  
+  .searchbar {
+    display: flex;
+    align-items: center;
+    background-color: #9049BF; 
+    border-radius: 40px; 
+    padding: 5px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .searchinput {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #DFDCF2;
+    font-size: 16px;
+    width: 100%;
+    padding-left: 10px;
+  }
+  
+  .searchinput::placeholder {
+    color: #DFDCF2; 
+  }
+  
+  .button {
+    background-color: #9049BF;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+    color: #DFDCF2;
+    border-radius: 25px;
+    transition: all 0.3s ease; 
+  }
+  
+  
+  .button:hover {
+    color: #88B6F2;
+    background-color: #DFDCF2;
+  }
+  
+  .ss:hover{
+    color: #88B6F2;
+  }
+  
+  .active {
+    background-color: #88B6F2;
+    color: #DFDCF2; 
+  }
+  
+  

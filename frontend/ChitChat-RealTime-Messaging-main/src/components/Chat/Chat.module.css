@@ -1,0 +1,40 @@
+.chatContainer {
+  width: 100%;
+  height: calc(100vh - (56.8px));
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#88B6F2, #9049BF);
+  
+}
+
+.chatForm {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.chatInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #CEE3FF;
+  border-radius: 20px;
+  margin-right: 10px;
+
+}
+
+.chatButton {
+  margin-top: 12px;
+  padding: 0px 15px;
+  height: 70%;
+  border: none;
+  border-radius: 50px;
+  background-color: #CEE3FF;
+  color: #161459;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chatButton:hover {
+  background-color: #BDB2FF;
+}
